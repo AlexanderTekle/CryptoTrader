@@ -2,9 +2,10 @@
   "name": "cryptotrader",
   "version": "1.0.0",
   "description": "Bot to make basic trades on Bittrex",
-  "main": "index.js",
+  "main": "bot.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bot.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/AlexanderTekle/CryptoTrader/issues"
   },
-  "homepage": "https://github.com/AlexanderTekle/CryptoTrader#readme"
+  "homepage": "https://github.com/AlexanderTekle/CryptoTrader#readme",
+  "dependencies": {
+    "node-bittrex-api": "^0.8.3"
+  }
 }
